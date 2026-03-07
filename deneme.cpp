@@ -6,6 +6,8 @@ using namespace std;
 
 int main()
 {
+    string kemal = "Kemal";
+    string gunsur = "Gunsur";
     double satisfiyatin;
     cout << "Lutfen satis miktarini giriniz : " << endl;
     cin >> satisfiyatin;
@@ -36,6 +38,8 @@ int main()
     {
         cout << "Kariniz dusuk" << endl;
     }
+    cout << kemal + " " + gunsur << endl;
+    
     
     return 0;
 }
