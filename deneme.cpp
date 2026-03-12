@@ -9,7 +9,7 @@ int main()
     string kemal = "Kemal";
     string gunsur = "Gunsur";
     double satisfiyatin;
-    cout << "Lutfen satis miktarini giriniz : " << endl;
+    cout << "Lutfen satis miktarini giriniz : ";
     cin >> satisfiyatin;
     // double satisfiyati=200000;
     double toplamkar = satisfiyatin * 1.0 / 4.0;
